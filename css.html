@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Intro a CSS (Cascade Style Sheets)</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="styles1.css">
+	
+		
+	</style>
+</head>
+<body>
+    <div class="title">
+
+    	<h1>Formulario</h1> 
+    </div>
+    <hr>
+    <div>
+    	<form action="#" method="post">
+    		<div class = "input-wrapper">
+    		<label for="firstname">NOMBRE </label>
+    		<input type="text" name="firstname" id="firstname" placeholder="NOMBRE"> 
+    		</div>
+
+    		<div class ="input-wrapper">
+    		<label for="surname">APELLIDO </label>
+    		<input type="text" name="surname" id="surname"> 
+    		</div>
+    		
+    		<div class= "input-wrapper">
+    		<label for="email">EMAIL</label>
+    		<input type="email" name="email" id="email" value="chalosalvador@gmail.com" disabled="disabled">
+    		</div>
+                
+            <div class ="input-wrapper">   
+    		<label for= "tel">TELEFONO</label>
+    		<input type="tel" name="phone" id="tel">
+    	    </div>
+
+    	    <div class ="input-wrapper">
+    	    <label for="number">CELULAR </label>
+    		<input type="number" name="phone" id="number">
+            </div>
+ 
+            <div class ="input-wrapper">
+            <label for="password">CONTRASEÑA</label>
+    		<input type="password" name="password" id="password">
+    		</div>
+             
+            <div>
+            <label for="dob">Fecha de nacimiento</label>
+            <input type="date" name="dob" id="dob">	
+            </div>
+
+    		<div>
+    			<label for="interest">Intereses</label>
+    			<textarea rows="8" cols="100"></textarea>
+    		</div>
+
+    		<div>
+    			<label for="country">PAIS</label>
+    			<select name="country" id="country">
+    			<option value="">Seleccione una opcion ...</option>
+    			<option value="ec">Ecuador </option>
+    			<option value="ec">Colombia </option>	
+    			</select>
+    		</div>
+    		<div>
+    			
+             <div>
+             	<input type="checkbox" name="topics []" id="i1" value="php">
+             	<label for="i1">PHP</label>
+             </div>
+             
+             <div>
+              <strong>Desea recibir noticias de la pagina?</strong>	
+             </div>
+             
+             <div>
+             <input type="radio" name="news" value="yes" id="news1">
+             <label for="">SI</label>	
+             </div>
+
+             <div>
+             <input type="radio" name="news" value="no" id="news2">
+             <label for="">NO</label>	
+             </div>
+
+             <div>
+             	<input type="checkbox" name="accept" id="accept"> 
+             	<label for="aceept">Acepto casarme contigo</label>
+             </div>
+
+             <div>
+             	<input type="range" name="range" id="range">
+             </div>
+
+             <div>
+             	<label for="cv">Sube tu hoja de vida</label>
+             	<input type="file" accept="pdf" name="cv" id="cv">
+             </div>
+
+             <div>
+             	<input type="submit" name="send" id="send" value="Enviar" class="btn">
+             </div>
+    		</div>
+    	</form>
+
+    	<div>
+    		<table>
+    			<thead>
+    				<tr>
+    					<th>Nombre</th>
+    					<th>Apellido</th>
+    					<th>Telefono</th>
+    					<th>Edad</th>
+    				</tr>
+    			</thead>
+
+    			<tbody>
+    				<tr>
+    				<td>Gaby</td>
+    				<td>Garcia</td>
+    				<td>0987574486</td>
+    				<td>21</td>
+    				</tr>
+    			</tbody>
+    		</table>
+    	</div>
+
+    </div>
+</body>
+</html>

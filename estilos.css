@@ -1,0 +1,21 @@
+.title {  
+			width: 700px;
+			margin-top: 70px;
+			margin-left:200px; 
+			color: #ffffff;
+			line-height: 4px;
+			font-family: "Arial"
+		}
+
+.tabla {
+	width: 700px;
+	margin-top: 50px;
+	margin-left:200px; 
+	background-color:#ff8700;
+	color: #ffffff;
+	font-family: "Arial"
+	font-size:"12"
+	
+		}
+
+}
